@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP DataType & Syntax</title>
+    <style>
+        body 
+        {
+            fron-family: Arial, sans-serif;
+            mergin: 0;
+            background: #0f172a;
+            color: #f1f5f9;
+        }
+        header
+        {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            mergin:0;
+            color: #38bdf8;
+        }
+        section {
+            padding: 30px;
+            max-height: 900px;
+            mergin:auto;
+            text-align: center;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            mergin-bottom:20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h2{
+            color: #22c55e;
+        }
+        code {
+            background: #020617;
+            padding: 10px;
+            display: block;
+            border-radius: 8px;
+            mergin-top:10px;
+            color: #38bdf8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293d;
+            mergin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PHP Data Type And Syntax</h1>
+    <p>Learn the basics of PHP programming</p>
+</header>
+<section>
+    
+      <div class="card">
+          <h2>តើ Datatype នៅក្នុង PHP មានអ្វីខ្លះ ?</h2>
+      </div>
+      <p></p>
+
+      <div class="card">
+          <h1>ចម្លើយ</h1>
+          <h2>នៅក្នុង PHP មាន Data Type សំខាន់ៗជា ៣ ក្រុមធំៗមានដូចជា </h2>
+          <h1> 1. Scalar Data Types <p></p>2. Compound Data Types <p></p>3. Special Data Types</h1>
+      </div>
+      <p></p>
+      <div class="card">
+          <h2>1 . Scalar Data Types</h2>
+          <h1><p></p>
+            -Integer – លេខគត់<p></p>
+            -Float (Double) – លេខទសភាគ<p></p>
+            -String – អក្សរ ឬពាក្យ<p></p>
+            -Boolean – តម្លៃពិត (true) ឬ មិនពិត (false)</h1><p></p>
+      </div>
+      <p></p>
+      <div class="card">
+          <h2>2 . Compound Data Types</h2>
+          <p></p>
+            <h1>Array – ផ្ទុកទិន្នន័យច្រើនក្នុងអថេរតែមួយ
+             <p></p> Object – ប្រើប្រាស់ជាមួយ Class និង Programming បែប OOP (Object-Oriented Programming)
+            </h1>
+      </div>
+      <p></p>
+[2/05/2026 9:35 AM] Hut SamNang: <div class="card">
+          <h2>3. Special Data Types</h2>
+          <h1><p></p>
+            -NULL : តំណាងឱ្យអថេរដែលគ្មានតម្លៃ
+            <p></p>-Resource : ប្រើសម្រាប់ទិន្នន័យក្រៅ (ឧទាហរណ៍៖ database connection)</h1><p></p>
+      </div>
+       <p></p>
+       <div class="card">
+           <h2>Syntax និង ឧទាហរណ៏</h2>
+            <h2>1. Integer (លេខគត់)</h2>
+            <h1>// Syntax:  $variable = number;</h1><br>
+            <h1>// Example:   $age = 20; echo $age;</h1>   
+       </div><p></p>
+        <div class="card">
+             <h2>2. Float / Double (លេខទសភាគ)</h2>
+            <h1>// Example:   $price = 11.5; echo $price;</h1>
+        </div><p></p>
+        <div class="card">
+             <h2>3. String (អក្សរ ឬ ពាក្យ)</h2>
+            <h1>// Example:   $name = hut samnang; echo $name;</h1>
+        </div><p></p>
+        <div class="card">
+             <h2>4. Boolean </h2>
+             <h1>$isLogin = true</h1>
+            <h1>if (isLogin) {echo "User បាន Login"; }</h1>
+        </div><p></p>
+        <div class="card">
+             <h2>5. Array </h2>
+             <h1>$iscolor = ["Red, "Greed", "Blue"];</h1>
+            <h1>echo $iscolor[0]; // Red <h1>
+        </div><p></p>
+        <div class="card">
+             <h2>6. Object </h2>
+             <h1>class Student = { public $name; }</h1>
+            <h1>$stu = new Student ( ) ;<h1>
+            <h1>$stu->name = "samnang"; echo $stu->name;</h1>
+        </div><p></p>
+        <div class="card">
+             <h2>7. NULL </h2>
+             <h1>$data = null;</h1>
+            <h1>if ( $data === null ) { echo "មិនមានទិន្នន័យ" }<h1>
+        </div><p></p>
+        <div class="card">
+             <h2>8. Sesource</h2>
+            <h1>// Example:   $file = fopen("test . txt"; "r"),</h1>
+        </div><p></p>
+</section>
+
+</body>
+</html>
